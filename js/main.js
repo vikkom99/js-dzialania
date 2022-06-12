@@ -1,5 +1,4 @@
-let a = 2;
-let b = 5;
+
 function calc(a, b) {
     let plus = a + b;
     if (a + b >= 0) {
@@ -22,4 +21,4 @@ function calc(a, b) {
         console.log("Wynik jest nieprawidłowy")
     }
 }
-console.log(calc(10, 2));
+calc(10, 2);
